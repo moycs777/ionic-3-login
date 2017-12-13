@@ -1,15 +1,13 @@
 {
-  "name": "nueva",
-  "app_id": "",
-  "type": "ionic-angular",
-  "integrations": {
-    "cordova": {}
-  },
-  "proxies": [
-    {
-      "path": "/api",
-      "proxyUrl": "http://localhost:8000/api/"
+    "name": "nueva",
+    "app_id": "",
+    "type": "ionic-angular",
+    "integrations": {
+        "cordova": {}
+    },
+    "proxies": [{
+        "path": "/v2",
+        "proxyUrl": "http://localhost:8000/api/v2/"
 
-    }
-  ]
+    }]
 }
